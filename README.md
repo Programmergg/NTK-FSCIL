@@ -11,3 +11,5 @@ Before starting, it's crucial to understand these repositories in depth. Since t
 - **[MoCo-v3](https://github.com/facebookresearch/moco-v3)**: Momentum Contrast Learning's latest iteration, refining contrastive learning.
 - **[SimCLR](https://github.com/sthalles/SimCLR)**: A simple yet effective framework for contrastive learning using image augmentations.
 - **[BYOL](https://github.com/sthalles/PyTorch-BYOL)**: Learn effective representations without negative samples, focusing on mutual information maximization.
+
+Using CIFAR100 as an example, we have open-sourced the pre-trained weights obtained from these self-supervised frameworks, covering various network architectures such as ResNet18, ResNet12, ViT-Tiny, and ViT-Small. The specific Google Drive download link is: https://drive.google.com/drive/folders/1RhyhZXETrxZqCkVb7UhQMIoQWZJqLogs?usp=drive_link. You can directly download the `pretrain_weights` folder and place it in the root directory of the project. Alternatively, you can choose to perform the pre-training yourself and adjust the corresponding path in the `load_self_pretrain_weights` function within the `utils.py` file.
