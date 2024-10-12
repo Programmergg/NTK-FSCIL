@@ -17,7 +17,7 @@ Code and data for paper <a href="https://arxiv.org/abs/2403.12486">NTK-Guided Fe
 
 ### Self-Supervised Pre-Training Weights
 
-Before starting, it's crucial to understand these repositories in depth. Since these repositories are designed for 224x224 image sizes, you will need to adjust them for smaller images like CIFAR100, Mini-ImageNet, and ImageNet100 used in FSCIL (Few-Shot Class-Incremental Learning). After making the necessary modifications, proceed with self-supervised pre-training on the base session of each dataset. Train for 1000 epochs, ensuring effective convergence, and save the resulting pre-trained weights.
+Before starting, it's crucial to understand these repositories in depth. Since these repositories are designed for 224x224 image sizes, you will need to adjust them for smaller images like CIFAR100, Mini-ImageNet, and ImageNet100 used in FSCIL (Few-Shot Class-Incremental Learning). After making the necessary modifications, proceed with self-supervised pre-training on the base session for each dataset. Train for 1000 epochs, ensuring effective convergence, and save the resulting pre-trained weights.
 
 - **[MAE](https://github.com/facebookresearch/mae)**: Learns image representations by masking random patches of the input image and reconstructing the missing information.
 - **[SparK](https://github.com/keyu-tian/SparK)**: Efficient pre-training that leverages sparsity for faster convergence and enhanced performance.
