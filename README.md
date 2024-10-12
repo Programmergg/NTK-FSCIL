@@ -63,6 +63,16 @@ We have incorporated a variety of configurable settings to offer flexibility for
 
 You can modify these settings directly in the command for customized experiments.
 
+The results on CIFAR-100 are presented as follows:
+
+<p align="center">
+    </br>
+    <div align="center">
+      <img src="logo.png" alt="Logo" style="width:30%; height:30%;">
+    </div>
+    </br>
+</p>
+
 ## ✍️ Citation
 If you find our work helpful, please use the following citations.
 ```
