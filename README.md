@@ -45,7 +45,6 @@ python cifar.py
 ```
 
 The results on CIFAR-100 are presented as follows:
-
 <p align="center">
     </br>
     <div align="center">
