@@ -44,6 +44,16 @@ To get started, simply run the script using:
 python cifar.py
 ```
 
+The results on CIFAR-100 are presented as follows:
+
+<p align="center">
+    </br>
+    <div align="center">
+      <img src="cifar_results.png" alt="Logo" style="width:100%; height:100%;">
+    </div>
+    </br>
+</p>
+
 We have incorporated a variety of configurable settings to offer flexibility for future users. These include:
 
 - **Datasets:** 
@@ -63,15 +73,7 @@ We have incorporated a variety of configurable settings to offer flexibility for
 
 You can modify these settings directly in the command for customized experiments.
 
-The results on CIFAR-100 are presented as follows:
-
-<p align="center">
-    </br>
-    <div align="center">
-      <img src="logo.png" alt="Logo" style="width:30%; height:30%;">
-    </div>
-    </br>
-</p>
+Note: We have removed the NTK constraint on the linear layers for content to be included in a future paper. Apologies for the inconvenience! However, this adjustment does not significantly impact performance and should not hinder further innovations based on this work.
 
 ## ✍️ Citation
 If you find our work helpful, please use the following citations.
