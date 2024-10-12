@@ -27,3 +27,30 @@ Before starting, it's crucial to understand these repositories in depth. Since t
 - **[BYOL](https://github.com/sthalles/PyTorch-BYOL)**: Learn effective representations without negative samples, focusing on mutual information maximization.
 
 Using CIFAR100 as an example, we have open-sourced the pre-trained weights obtained from these self-supervised frameworks, covering various network architectures such as ResNet18, ResNet12, ViT-Tiny, and ViT-Small. The specific Google Drive download link is: https://drive.google.com/drive/folders/1RhyhZXETrxZqCkVb7UhQMIoQWZJqLogs?usp=drive_link. You can directly download the `pretrain_weights` folder and place it in the root directory of the project. Alternatively, you can choose to perform the pre-training yourself and adjust the corresponding path in the `load_self_pretrain_weights` function within the `utils.py` file.
+
+### Training and Testing
+
+To get started, simply run the script using:
+
+```bash
+python cifar.py
+```
+
+We have incorporated a variety of configurable settings to offer flexibility for future users. These include:
+
+- **Datasets:** 
+  - `cifar100`, `cub200`, `miniimagenet`, `imagenet100`, `imagenet1000`
+
+- **Image Transformation Methods:** 
+  - `Normal`, `AMDIM`, `SimCLR`, `AutoAug`, `RandAug`
+
+- **Network Architectures:** 
+  - `resnet12`, `resnet18`, `vit_tiny`, `vit_small`
+
+- **Self-Supervised Pre-Trained Weights:** 
+  - `dino`, `spark`, `mae`, `moco-v3`, `simclr`, `byol`
+
+- **Alignment Losses:**
+  - `curriculum`, `arcface`, `sphereface`, `cosface`, `crossentropy`
+
+You can modify these settings directly in the command for customized experiments.
