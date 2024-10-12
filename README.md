@@ -35,7 +35,6 @@ To run NTK-FSCIL from source, follow these steps:
 3. Run `conda create -n FSCIL python=3.8` to created a conda environment named `FSCIL`.
 4. Activate the environment with `conda activate FSCIL`.
 5. pip install requirements.txt
-6. Go!!!!!!!!
 
 ### 👋 Training and Testing
 
