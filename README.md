@@ -1,5 +1,6 @@
-# NTK-FSCIL
-Code for 'NTK-Guided Few-Shot Class Incremental Learning'
+# NTK-Guided Few-Shot Class Incremental Learning
+
+![Logo](logo.png)
 
 ### Self-Supervised Pre-Training Weights
 
