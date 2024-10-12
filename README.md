@@ -1,5 +1,5 @@
 <p align="center">
-Code and data for paper <a href="https://arxiv.org/abs/2403.12486">NTK-Guided Few-Shot Class Incremental Learning (Accept by IEEE TIP)</a>
+Code and data for paper <a href="https://arxiv.org/abs/2403.12486">NTK-Guided Few-Shot Class Incremental Learning</a>  (Accept by IEEE TIP)
     </br>
     <div align="center">
       <img src="logo.png" alt="Logo" style="width:30%; height:30%;">
