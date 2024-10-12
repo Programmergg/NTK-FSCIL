@@ -15,7 +15,7 @@ Code and data for paper <a href="https://arxiv.org/abs/2403.12486">NTK-Guided Fe
     </div>
 </p>
 
-### Self-Supervised Pre-Training Weights
+### 💫 Self-Supervised Pre-Training Weights
 
 Before starting, it's crucial to understand these repositories in depth. Since these repositories are designed for 224x224 image sizes, you will need to adjust them for smaller images like CIFAR100, Mini-ImageNet, and ImageNet100 used in FSCIL (Few-Shot Class-Incremental Learning). After making the necessary modifications, proceed with self-supervised pre-training on the base session for each dataset. Train for 1000 epochs, ensuring effective convergence, and save the resulting pre-trained weights.
 
@@ -28,7 +28,16 @@ Before starting, it's crucial to understand these repositories in depth. Since t
 
 Using CIFAR100 as an example, we have open-sourced the pre-trained weights obtained from these self-supervised frameworks, covering various network architectures such as ResNet18, ResNet12, ViT-Tiny, and ViT-Small. The specific Google Drive download link is: https://drive.google.com/drive/folders/1RhyhZXETrxZqCkVb7UhQMIoQWZJqLogs?usp=drive_link. You can directly download the `pretrain_weights` folder and place it in the root directory of the project. Alternatively, you can choose to perform the pre-training yourself and adjust the corresponding path in the `load_self_pretrain_weights` function within the `utils.py` file.
 
-### Training and Testing
+## 🚀 Set Up
+To run NTK-FSCIL from source, follow these steps:
+1. Clone this repository locally
+2. `cd` into the repository.
+3. Run `conda create -n FSCIL python=3.8` to created a conda environment named `FSCIL`.
+4. Activate the environment with `conda activate FSCIL`.
+5. pip install requirements.txt
+6. Go!!!!!!!!
+
+### 👋 Training and Testing
 
 To get started, simply run the script using:
 
