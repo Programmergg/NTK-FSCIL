@@ -7,7 +7,7 @@ Code and data for paper <a href="https://arxiv.org/abs/2403.12486">NTK-Guided Fe
     </br>
     <div align="center">
         <a href="https://www.python.org/">
-            <img alt="Build" src="https://img.shields.io/badge/Python-3.9+-1f425f.svg?color=purple">
+            <img alt="Build" src="https://img.shields.io/badge/Python-3.8+-1f425f.svg?color=purple">
         </a>
         <a>
             <img alt="MIT" src="https://img.shields.io/badge/License-MIT-yellow">
