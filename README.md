@@ -62,3 +62,12 @@ We have incorporated a variety of configurable settings to offer flexibility for
   - `curriculum`, `arcface`, `sphereface`, `cosface`, `crossentropy`
 
 You can modify these settings directly in the command for customized experiments.
+
+## ✍️ Citation
+If you find our work helpful, please use the following citations.
+```
+
+```
+
+## 📰 License
+MIT. Check `LICENSE.md`.
