@@ -27,7 +27,7 @@ def _download_url_to_file(url, dst, hash_prefix, progress):
         file_size = int(content_length[0])
     # We deliberately save it in a temp file and move it after
     # download is complete. This prevents a local working checkpoint
-    # being overriden by a broken download.
+    # being overridden by a broken download.
     dst_dir = os.path.dirname(dst)
     f = tempfile.NamedTemporaryFile(delete=False, dir=dst_dir)
     try:
