@@ -77,7 +77,17 @@ Note: We have removed the NTK constraint on the linear layers for content to be 
 ## ✍️ Citation
 If you find our work helpful, please use the following citations.
 ```
-
+@ARTICLE{10721322,
+  author={Liu, Jingren and Ji, Zhong and Pang, Yanwei and Yu, Yunlong},
+  journal={IEEE Transactions on Image Processing}, 
+  title={NTK-Guided Few-Shot Class Incremental Learning}, 
+  year={2024},
+  volume={33},
+  number={},
+  pages={6029-6044},
+  keywords={Power capacitors;Convergence;Training;Kernel;Optimization;Neural networks;Metalearning;Incremental learning;Jacobian matrices;Thermal stability;Few-shot class-incremental learning;neural tangent kernel;generalization;self-supervised learning},
+  doi={10.1109/TIP.2024.3478854}
+}
 ```
 
 ## 📰 License
