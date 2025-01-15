@@ -84,9 +84,7 @@ If you find our work helpful, please use the following citations.
   year={2024},
   volume={33},
   number={},
-  pages={6029-6044},
-  keywords={Power capacitors;Convergence;Training;Kernel;Optimization;Neural networks;Metalearning;Incremental learning;Jacobian matrices;Thermal stability;Few-shot class-incremental learning;neural tangent kernel;generalization;self-supervised learning},
-  doi={10.1109/TIP.2024.3478854}
+  pages={6029-6044}
 }
 ```
 
