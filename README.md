@@ -77,14 +77,12 @@ Note: We have removed the NTK constraint on the linear layers for content to be 
 ## ✍️ Citation
 If you find our work helpful, please use the following citations.
 ```
-@ARTICLE{10721322,
+@article{liu2024ntk,
+  title={Ntk-guided few-shot class incremental learning},
   author={Liu, Jingren and Ji, Zhong and Pang, Yanwei and Yu, Yunlong},
-  journal={IEEE Transactions on Image Processing}, 
-  title={NTK-Guided Few-Shot Class Incremental Learning}, 
+  journal={IEEE Transactions on Image Processing},
   year={2024},
-  volume={33},
-  number={},
-  pages={6029-6044}
+  publisher={IEEE}
 }
 ```
 
